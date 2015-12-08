@@ -10,6 +10,11 @@ class Fetcher {
      */
     public function fetch($url)
     {
+        if (empty($url) || !is_string($url))
+        {
+            throw new \InvalidArgumentException();
+        }
+
         /** @var \SimpleXMLElement $xml */
         $xml = simplexml_load_file($url);
 
