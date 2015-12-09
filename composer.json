@@ -10,24 +10,5 @@
             "": "vendor/",
             "NexgenApi\\": "src/"
         }
-    },
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "samwalshnz/nexgen-api",
-                "version": "dev-master",
-                "source": {
-                    "url": "git://github.com/samwalshnz/nexgen-api.git",
-                    "type": "git",
-                    "reference": "master"
-                },
-                "autoload": {
-                    "psr-4" : {
-                        "NexgenApi\\" : "src/"
-                    }
-                }
-            }
-        }
-    ]
+    }
 }
