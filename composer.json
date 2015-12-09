@@ -1,4 +1,6 @@
 {
+    "name": "samwalshnz/nexgen-api",
+    "description": "Get current and upcoming track at nexgen webpoint",
     "require": {
         
     },
